@@ -1,0 +1,175 @@
+<html>
+<head>
+<body style="background-color:powderblue">
+
+<h1 align = "center" >Introduction  To  Web </h1>
+
+<center>
+<img src = "intro.png">
+</center>
+
+<p> 
+
+Web consists of billions of clients and server connected through wires and wireless networks. The web clients make requests to web server. The web server receives the request, finds the resources and return the response to the client. When a server answers a request, it usually sends some type of content to the client. The client uses web browser to send request to the server. The server often sends response to the browser with a set of instructions written in HTML(HyperText Markup Language). All browsers know how to display HTML page to the client. 
+
+</p>
+
+<u><h5> <a href = "cont"> CONTENTS </h5> </u>
+
+<UL>
+
+<LI> <a href = "#client"> Client/Server concepts </a>
+<LI> <a href = "#webapp">  Components  of  Web  Application </a>
+<LI> <a href = "#webcont"> Types  of Web Content </a>
+<LI> <a href = "#http"> Overview of HTTP </a>
+<UL><LI> <a href = "#req"> HTTP Request </a>
+<LI> <a href = "#resp"> HTTP Response  </a> </UL>
+<LI> <a href = "#dynweb"> Generation of dynamic web pages </a>
+<LI> <a href = "#appserve">  Application Servers </a>
+<LI> <a href = "#websec"> Web Security </a>
+</UL>
+
+
+
+<br><br>
+
+
+
+<h3 id = "client" > Client/Server concepts </h3>
+
+<p>
+<img src = "client.png" style="float:right;width:420px;height:250px;">
+
+The client-server model, or client-server architecture, is a distributed application framework dividing tasks between servers and clients, which either reside in the same system or communicate through a computer network or the Internet. The client relies on sending a request to another program in order to access a service made available by a server. The server runs one or more programs that share resources with and distribute work among clients.
+
+The client server relationship communicates in a request–response messaging pattern and must adhere to a common communications protocol, which formally defines the rules, language, and dialog patterns to be used. Client-server communication typically adheres to the TCP/IP protocol suite.
+
+TCP protocol maintains a connection until the client and server have completed the message exchange. TCP protocol determines the best way to distribute application data into packets that networks can deliver, transfers packets to and receives packets from the network, and manages flow control and retransmission of dropped or garbled packets. IP is a connectionless protocol in which each packet traveling through the Internet is an independent unit of data unrelated to any other data units.
+
+Client requests are organized and prioritized in a scheduling system, which helps servers cope in the instance of receiving requests from many distinct clients in a short space of time. The client-server approach enables any general-purpose computer to expand its capabilities by utilizing the shared resources of other hosts. Popular client-server applications include email, the World Wide Web, and network printing.
+
+</p>
+
+<br><br>
+
+<h3 id = "webapp"> Components  of  Web  Application </h3>
+<p>
+<img src = "webapp.png" style="float:right;width:420px;height:250px;">
+
+The web application architecture describes the interactions between applications, databases, and middleware systems on the web. It ensures that multiple applications work simultaneously. Let us understand it with a simple example of opening a webpage.
+
+As soon as the user hits the go button after typing a URL in the address bar of a web browser, it requests for that particular web address. The server sends files to the browser as a response to the request made. The browser then executes those files to show the requested page.
+
+Finally, the user is able to interact with the website. The most important thing to note here is the code parsed by the web browser. A web app works in a similar way.
+
+This code might or might not have specific instructions that tell the browser how to respond with respect to the different types of user inputs.
+
+Hence, a web application architecture has to include all the sub-components as well as the external applications interchanges for the entire software application, in the aforementioned case, which is a website.
+
+The web application architecture is indispensable in the modern world because a major portion of the global network traffic, as well as most of the apps and devices, make use of web-based communication.
+
+</p>
+
+<h3 id = "webcont" > Types of Web Content </h3>
+
+<p>
+
+<UL>
+
+<li>eCommerce <br>
+
+<dl> A business website generally serves as a platform to promote your company and usually links directly to your business’ eCommerce platform if you sell your products online. It is important to describe what your company is about, who you are targeting your product towards, and why they should choose you over your competitors. <dl>
+
+<li>Informative  <br>
+
+<dl>
+
+Informative websites function to provide a wide variety of information on topics such as political or environmental issues, biographies, or historical accounts. The most popular informative website is Wikipedia, which serves as an open-sourced online encyclopedia. </dl>
+
+<li>News/Entertainment <br> 
+
+<dl>
+Unlike eCommerce websites, which are directly selling goods or services, news and entertainment websites provide news content for the public, often without a necessary subscription. News websites are different from informative websites because they are provided directly by news companies such as The New York Times, CNN, or U.S. World & News Report. </dl>
+
+<li>Forum/Blog <br>
+
+<dl>
+Forums are discussion boards where people can discuss their thoughts about different topics that are created by members of the forum’s website. Blogs, on the other hand, are discussion boards created by the author of the website page, to which other individuals are encouraged to respond. Reddit is an example of a popular forum page, and we will discuss later about how you can create a blog page for your website and why it is an important feature to add. </dl>
+
+</UL> <br>
+
+</p>
+
+<h3 id = "http" > Overview of HTTP </h3> 
+
+<p>
+<img src = "http.jpeg" style="float:right;width:300px;height:260px;">
+
+The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. This is the foundation for data communication for the World Wide Web (i.e. internet) since 1990. HTTP is a generic and stateless protocol which can be used for other purposes as well using extensions of its request methods, error codes, and headers.
+
+Basically, HTTP is a TCP/IP based communication protocol, that is used to deliver data (HTML files, image files, query results, etc.) on the World Wide Web. The default port is TCP 80, but other ports can be used as well. It provides a standardized way for computers to communicate with each other. HTTP specification specifies how clients' request data will be constructed and sent to the server, and how the servers respond to these requests.
+</p>
+
+<UL>
+
+<li id = "req"> <h4> HTTP Request </h4> </li> <p>
+
+<dl> 
+
+An HTTP request is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server. To make the request, the client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource.
+
+</dl>
+</p>
+
+<li id = "resp"> <h4>  HTTP Response </h4> </li> <p> 
+
+<dl>
+
+An HTTP response is made by a server to a client. The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.
+
+</dl>
+</p>
+
+</UL>
+
+<h3 id = "dynweb"> Generation of Dynamic Web Pages </h3>
+
+<p>
+Web pages that use server-side scripting are often created with the help of server-side languages such as PHP, Perl, ASP, ASP.NET, JSP, ColdFusion and other languages. These server-side languages typically use the Common Gateway Interface (CGI) to produce dynamic web pages.
+
+</p>
+
+<h3 id = "appserve"> Application Server </h3>
+
+<p>
+<img src = "appserv.PNG" style="float:right;width:300px;height:210px;">
+
+An application server is a server that hosts applications.[1]
+
+Application server frameworks are software frameworks for building application servers. An application server framework provides both facilities to create web applications and a server environment to run them.
+
+An application server framework contains a comprehensive service layer model. It includes a set of components accessible to the software developer through a standard API defined for the platform itself. For Web applications, these components usually run in the same environment as their web server(s), and their main job is to support the construction of dynamic pages. However, many application servers do more than generate web pages: they implement services such as clustering, fail-over, and load-balancing, so developers can focus on implementing the business logic.
+
+In the case of Java application servers, the server behaves like an extended virtual machine for running applications, transparently handling connections to the database on one side, and, often, connections to the Web client on the other.
+
+Other uses of the term may refer to the services that a server makes available or the computer hardware on which the services run.
+</p>
+
+<h3 id = "websec"> Web Security </h3>
+<p>
+<img src = "websec.jpg" style="float:right;width:300px;height:200px;">
+
+Web security must be a critical priority for every organization. Along with email, the web is one of the top vectors for cyberattacks. The web and the use of DNS services specifically are part of 91% of all malware attacks, and email and web together are a key part for 99% of successful breaches.
+
+While the importance of web security is undisputed, protecting against web security threats grows more challenging each day. From thwarting attacks to dealing with limits in skills and resources, IT security departments face serious challenges when trying to secure the web.
+
+In the past, security teams have deployed a collection of on-premises solutions to manage email and web security. But increasingly organizations are turning to comprehensive email and web security solutions – via integrated, cloud-based technologies that simplify the task and reduce the cost of reducing risk. And because attackers often leverage email and web channels together, a seamless and scalable strategy for protecting both is essential.
+</p>
+
+
+
+</body>
+</head>
+</html>   <p align = "right"> <a href = "#GOTO TOP"> Top </a> </p>
+
+
